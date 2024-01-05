@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+.div, .div * {
+    box-sizing: border-box;
+    }
+.div {
+    background: #ffffff;
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+    }
+
+ .roginbutton {
+    position: absolute;
+    inset: 0;
+    }
+
+ .roginbutton2 {
+    width: 119px;
+    height: 32px;
+    position: static;
+    }
+
+ .rectangle-14 {
+    background: #ffffff;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #9d9d9d;
+    border-width: 1px;
+    width: 119px;
+    height: 32px;
+    position: absolute;
+    left: 44px;
+    top: 554px;
+    box-shadow:  0px 4px 4px 0px rgba(86, 86, 86, 0.26);
+    }
+
+ .div2 {
+    color: #787878;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 88px;
+    top: 561px;
+    width: 31px;
+    height: 19px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .rectangle-142 {
+    background: linear-gradient(180deg, rgba(91, 196, 255, 0.71) 37.5%,rgba(68, 154, 255, 0.55) 100%);
+    border-radius: 30px;
+    width: 119px;
+    height: 32px;
+    position: absolute;
+    left: 198px;
+    top: 554px;
+    box-shadow:  0px 4px 4px 0px rgba(102, 136, 255, 0.26);
+    }
+
+ .div3 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 242px;
+    top: 561px;
+    width: 31px;
+    height: 19px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div4 {
+    color: #656565;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 22px;
+    top: 99px;
+    }
+
+ .div5 {
+    color: #656565;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 32px;
+    top: 293px;
+    }
+
+ .rectangle-18 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 206px;
+    height: 100px;
+    position: absolute;
+    left: 120px;
+    top: 99px;
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+ .rectangle-19 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 181px;
+    top: 286px;
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+ .ellipse-7 {
+    background: #ffffff;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 126px;
+    top: 289px;
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+ .ellipse-8 {
+    background: #ffffff;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 265px;
+    top: 290px;
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+ .div6 {
+    color: #656565;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 132px;
+    top: 294px;
+    }
+
+ .div7 {
+    color: #656565;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 272px;
+    top: 295px;
+    }
+
+ .div8 {
+    color: #656565;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 32px;
+    top: 390px;
+    }
+
+ .line-38 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 149px;
+    height: 0px;
+    position: absolute;
+    left: 131px;
+    top: 411px;
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+ .polygon-1 {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 280px;
+    top: 407px;
+    transform: translate(-18px, -11.25px);
+    overflow: visible;
+    }
+
+ .div9 {
+    color: #656565;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 150px;
+    top: 392px;
+    width: 101px;
+    }
+
+ ._0 {
+    color: #656565;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 207px;
+    top: 294px;
+    }
+
+ .div10 {
+    background: linear-gradient(180deg, rgba(71, 145, 255, 0.48) 28.02082598209381%,rgba(91, 186, 255, 0.60) 84.27082896232605%);
+    width: 360px;
+    height: 54px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    }
+
+ .vector {
+    height: auto;
+    position: absolute;
+    right: 88.11%;
+    left: 6.11%;
+    width: 5.78%;
+    bottom: 24.06%;
+    top: 24.07%;
+    height: 51.87%;
+    overflow: visible;
+    }
+
+ .div11 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 41.11%;
+    left: 41.11%;
+    width: 17.78%;
+    bottom: 31.48%;
+    top: 33.33%;
+    height: 35.19%;
+    }
+
+ .div12 {
+    color: rgba(242, 37, 37, 0.78);
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 132px;
+    top: 485px;
+    }
+
+ .line-39 {
+    border-style: solid;
+    border-color: #a0a0a0;
+    border-width: 1px 0 0 0;
+    width: 335px;
+    height: 0px;
+    position: absolute;
+    left: 12px;
+    top: 359px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .line-41 {
+    border-style: solid;
+    border-color: #a0a0a0;
+    border-width: 1px 0 0 0;
+    width: 335px;
+    height: 0px;
+    position: absolute;
+    left: 12px;
+    top: 245px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .line-40 {
+    border-style: solid;
+    border-color: #a0a0a0;
+    border-width: 1px 0 0 0;
+    width: 335px;
+    height: 0px;
+    position: absolute;
+    left: 12px;
+    top: 440px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+.div, .div * {
+    box-sizing: border-box;
+    }
+.div {
+    background: var(--div, linear-gradient(191.44deg, rgba(94, 109, 242, 0.64) 0%,rgba(107, 211, 255, 0.73) 100%));
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+    }
+
+ .frame-4 {
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 3px;
+    width: 281px;
+    height: 553px;
+    position: absolute;
+    left: 40px;
+    top: 44px;
+    box-shadow:  0px 4px 6px 4px rgba(255, 255, 255, 0.08);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+    }
+
+ .login {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 109px;
+    top: 114px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .name {
+    position: absolute;
+    inset: 0;
+    }
+
+ .line-36 {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px 0 0 0;
+    width: 200px;
+    height: 0px;
+    position: absolute;
+    left: 41px;
+    top: 222px;
+    transform-origin: 0 0;
+    transform: rotate(-0.286deg) scale(1, 1);
+    }
+
+ .name2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 48px;
+    top: 204px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .pass {
+    position: absolute;
+    inset: 0;
+    }
+
+ .line-37 {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px 0 0 0;
+    width: 200px;
+    height: 0px;
+    position: absolute;
+    left: 41px;
+    top: 301px;
+    transform-origin: 0 0;
+    transform: rotate(-0.286deg) scale(1, 1);
+    }
+
+ .pass2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 48px;
+    top: 284px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .roginbutton {
+    position: absolute;
+    inset: 0;
+    }
+
+ .rectangle-14 {
+    background: rgba(96, 121, 253, 0.36);
+    border-radius: 30px;
+    width: 142px;
+    height: 29px;
+    position: absolute;
+    left: 70px;
+    top: 406px;
+    box-shadow:  0px 4px 4px 0px rgba(123, 121, 245, 0.33);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 113px;
+    top: 412px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div3 {
+    color: rgba(242, 75, 115, 0.69);
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 45px;
+    top: 368px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .reply-solid-1 {
+    height: auto;
+    position: absolute;
+    right: 84.17%;
+    left: 6.67%;
+    width: 9.17%;
+    bottom: 90.62%;
+    top: 4.53%;
+    height: 4.84%;
+    overflow: visible;
+    }
+

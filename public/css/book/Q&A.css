@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+.q-a, .q-a * {
+    box-sizing: border-box;
+    }
+.q-a {
+    background: #ffffff;
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+    }
+
+ .div {
+    background: linear-gradient(180deg, rgba(71, 145, 255, 0.48) 28.02082598209381%,rgba(91, 186, 255, 0.60) 84.27082896232605%);
+    width: 360px;
+    height: 54px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    }
+
+ .vector {
+    height: auto;
+    position: absolute;
+    right: 88.11%;
+    left: 6.11%;
+    width: 5.78%;
+    bottom: 24.06%;
+    top: 24.07%;
+    height: 51.87%;
+    overflow: visible;
+    }
+
+ .q-a2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 44.44%;
+    left: 44.72%;
+    width: 10.83%;
+    bottom: 31.48%;
+    top: 33.33%;
+    height: 35.19%;
+    }
+
+ .rectangle-31 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #648fff;
+    border-width: 1px;
+    width: 328px;
+    height: 51px;
+    position: absolute;
+    left: 16px;
+    top: 66px;
+    }
+
+ .q {
+    color: #3e8bff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 32px;
+    top: 77px;
+    }
+
+ .div2 {
+    color: #5a6bff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 77px;
+    top: 80px;
+    }
+
+ .vector2 {
+    height: auto;
+    position: absolute;
+    right: 13.33%;
+    left: 82.5%;
+    width: 4.17%;
+    bottom: 81.41%;
+    top: 15.47%;
+    height: 3.12%;
+    transform: translate(0px, -15px);
+    overflow: visible;
+    }
+
+ .rectangle-32 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #648fff;
+    border-width: 1px;
+    width: 328px;
+    height: 117px;
+    position: absolute;
+    left: 16px;
+    top: 129px;
+    }
+
+ .div3 {
+    color: #545454;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 77px;
+    top: 184px;
+    }
+
+ .a {
+    color: #ff4d4d;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 33px;
+    top: 181px;
+    }
+
+ .q2 {
+    color: #3e8bff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 32px;
+    top: 140px;
+    }
+
+ .div4 {
+    color: #5a6bff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 77px;
+    top: 143px;
+    }
+
+ .vector3 {
+    height: auto;
+    position: absolute;
+    right: 7.78%;
+    left: 88.06%;
+    width: 4.17%;
+    bottom: 73.91%;
+    top: 22.97%;
+    height: 3.12%;
+    transform: translate(-20px, 0px);
+    overflow: visible;
+    }
+

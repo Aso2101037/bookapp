@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+.div, .div * {
+    box-sizing: border-box;
+    }
+.div {
+    background: #ffffff;
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+    }
+
+ .div2 {
+    width: 360px;
+    height: 54px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    }
+
+ .roginbutton {
+    position: absolute;
+    inset: 0;
+    }
+
+ .roginbutton2 {
+    width: 119px;
+    height: 32px;
+    position: static;
+    }
+
+ .rectangle-14 {
+    background: linear-gradient(180deg, rgba(91, 137, 255, 0.71) 37.5%,rgba(68, 87, 255, 0.55) 100%);
+    border-radius: 30px;
+    width: 119px;
+    height: 32px;
+    position: absolute;
+    left: 200px;
+    top: 558px;
+    box-shadow:  0px 4px 4px 0px rgba(102, 136, 255, 0.26);
+    }
+
+ .div3 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 244px;
+    top: 565px;
+    width: 31px;
+    height: 19px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .rectangle-142 {
+    background: var(--削除色, rgba(255, 91, 91, 0.71));
+    border-radius: 30px;
+    width: 119px;
+    height: 32px;
+    position: absolute;
+    left: 41px;
+    top: 558px;
+    box-shadow:  0px 4px 4px 0px rgba(255, 102, 102, 0.26);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div4 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 84.52px;
+    top: 565.47px;
+    width: 34.09px;
+    height: 18.13px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div5 {
+    width: 294px;
+    height: 27px;
+    position: absolute;
+    left: 29px;
+    top: 91px;
+    overflow: visible;
+    }
+
+ .circle-chevron-down-solid-1 {
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    left: 292px;
+    top: 91px;
+    overflow: visible;
+    }
+
+ .rectangle-24 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 303px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 155px;
+    }
+
+ .roginbutton3 {
+    width: 68px;
+    height: 32px;
+    position: static;
+    }
+
+ .rectangle-143 {
+    background: var(--削除色, rgba(255, 91, 91, 0.71));
+    border-radius: 30px;
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    left: 245px;
+    top: 163px;
+    box-shadow:  0px 4px 4px 0px rgba(255, 102, 102, 0.26);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div6 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 267px;
+    top: 170px;
+    width: 24px;
+    height: 19px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div7 {
+    color: #7b7b7b;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 49px;
+    top: 167px;
+    }
+
+ .rectangle-28 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 303px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 411px;
+    }
+
+ .rectangle-144 {
+    background: var(--削除色, rgba(255, 91, 91, 0.71));
+    border-radius: 30px;
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    left: 245px;
+    top: 419px;
+    box-shadow:  0px 4px 4px 0px rgba(255, 102, 102, 0.26);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div8 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 267px;
+    top: 426px;
+    width: 24px;
+    height: 19px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div9 {
+    color: #7b7b7b;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 49px;
+    top: 423px;
+    }
+
+ .rectangle-27 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 303px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 347px;
+    }
+
+ .rectangle-145 {
+    background: var(--削除色, rgba(255, 91, 91, 0.71));
+    border-radius: 30px;
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    left: 245px;
+    top: 355px;
+    box-shadow:  0px 4px 4px 0px rgba(255, 102, 102, 0.26);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div10 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 267px;
+    top: 362px;
+    width: 24px;
+    height: 19px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div11 {
+    color: #7b7b7b;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 49px;
+    top: 359px;
+    }
+
+ .rectangle-26 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 303px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 283px;
+    }
+
+ .rectangle-146 {
+    background: var(--削除色, rgba(255, 91, 91, 0.71));
+    border-radius: 30px;
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    left: 245px;
+    top: 291px;
+    box-shadow:  0px 4px 4px 0px rgba(255, 102, 102, 0.26);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div12 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 267px;
+    top: 298px;
+    width: 24px;
+    height: 19px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div13 {
+    color: #7b7b7b;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 49px;
+    top: 295px;
+    }
+
+ .rectangle-25 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 303px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 219px;
+    }
+
+ .rectangle-147 {
+    background: var(--削除色, rgba(255, 91, 91, 0.71));
+    border-radius: 30px;
+    width: 68px;
+    height: 32px;
+    position: absolute;
+    left: 245px;
+    top: 227px;
+    box-shadow:  0px 4px 4px 0px rgba(255, 102, 102, 0.26);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div14 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 267px;
+    top: 234px;
+    width: 24px;
+    height: 19px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+
+ .div15 {
+    color: #7b7b7b;
+    text-align: left;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 49px;
+    top: 231px;
+    }
+
