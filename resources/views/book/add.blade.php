@@ -7,7 +7,8 @@
     <title>追加画面</title>
 </head>
 <body>
-   <!-- For more features use the AutoHTML plugin window in figma ... --> 
+
+
 <div class="div" >
   	<div class="roginbutton" >
     		<div class="roginbutton2" >
