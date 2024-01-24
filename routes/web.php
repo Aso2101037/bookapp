@@ -28,6 +28,10 @@ Route::get('sing_up', function () {
     return view('/book/sing_up');
 });
 
+Route::get('edit', function () {
+    return view('/book/edit');
+});
+
 Route::get('home', function () {
     return view('/book/home');
 });

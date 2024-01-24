@@ -63,8 +63,8 @@
     transform: rotate(0deg) scale(1, 1);
     }
 
-/* ボタンデザイン */
-.bn632-hover {
+/* -------------------------------ボタンデザイン----------------------------------------------------------- */
+.rogin {
    width: 142px;
    font-size: 12px;
    font-weight: 600;
@@ -80,18 +80,24 @@
    transition: all .4s ease-in-out;
  }
  
- .bn632-hover:hover {
+ .rogin:hover {
    background-position: 100% 0;
    -o-transition: all .4s ease-in-out;
    -webkit-transition: all .4s ease-in-out;
    transition: all .4s ease-in-out;
  }
  
- .bn632-hover:focus {
+ .rogin:focus {
    outline: none;
  }
  
- .bn632-hover.bn26 {
-   background: rgba(96, 121, 253, 0.36);
-   box-shadow:  0px 4px 4px 0px rgba(123, 121, 245, 0.33);
+ .rogin.bn26 {
+   background-image: linear-gradient(
+     to right,
+     #2567e19a,
+     #445deb9f,
+     #0479fea4,
+     #3f59ed93
+   );
+   box-shadow: 0px 4px 4px 0px rgba(123, 121, 245, 0.33);
  }

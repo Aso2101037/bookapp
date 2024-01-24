@@ -9,8 +9,7 @@
     }
 .div {
     background: var(--div, linear-gradient(191.44deg, rgba(94, 109, 242, 0.64) 0%,rgba(107, 211, 255, 0.73) 100%));
-    width: 360px;
-    height: 640px;
+    height: 100vh;
     position: relative;
     overflow: hidden;
     }
@@ -21,97 +20,36 @@
     width: 281px;
     height: 553px;
     position: absolute;
-    left: 40px;
-    top: 44px;
+    left: 16%;
+    top: 17%;
     box-shadow:  0px 4px 6px 4px rgba(255, 255, 255, 0.08);
     transform-origin: 0 0;
     transform: rotate(0deg) scale(1, 1);
     overflow: hidden;
     }
 
- .sing-up {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    position: absolute;
-    left: 98px;
-    top: 114px;
-    transform-origin: 0 0;
-    transform: rotate(0deg) scale(1, 1);
-    }
+    .line-36 {
+      position: absolute;
+      left: 41px;
+     top: 172px;
+     }
 
- .name {
-    position: absolute;
-    inset: 0;
-    }
+     .line-37 {
+      position: absolute;
+      left: 41px;
+     top: 241px;
+     }
 
- .line-36 {
-    border-style: solid;
-    border-color: #ffffff;
-    border-width: 1px 0 0 0;
-    width: 200px;
-    height: 0px;
-    position: absolute;
-    left: 41px;
-    top: 222px;
-    transform-origin: 0 0;
-    transform: rotate(-0.286deg) scale(1, 1);
-    }
-
- .name2 {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    position: absolute;
-    left: 48px;
-    top: 204px;
-    transform-origin: 0 0;
-    transform: rotate(0deg) scale(1, 1);
-    }
-
- .pass {
-    position: absolute;
-    inset: 0;
-    }
-
- .line-37 {
-    border-style: solid;
-    border-color: #ffffff;
-    border-width: 1px 0 0 0;
-    width: 200px;
-    height: 0px;
-    position: absolute;
-    left: 41px;
-    top: 301px;
-    transform-origin: 0 0;
-    transform: rotate(-0.286deg) scale(1, 1);
-    }
-
- .pass2 {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    position: absolute;
-    left: 48px;
-    top: 284px;
-    transform-origin: 0 0;
-    transform: rotate(0deg) scale(1, 1);
-    }
+ 
 
  .div2 {
     color: rgba(242, 75, 115, 0.69);
-    text-align: left;
+    text-align: center;
     font-family: 'Inter-Regular', sans-serif;
     font-size: 12px;
     font-weight: 400;
     position: absolute;
-    left: 45px;
+    left: 50%;
     top: 362px;
     transform-origin: 0 0;
     transform: rotate(0deg) scale(1, 1);
@@ -122,18 +60,13 @@
     inset: 0;
     }
 
- .rectangle-14 {
-    background: rgba(96, 121, 253, 0.36);
-    border-radius: 30px;
-    width: 142px;
-    height: 29px;
-    position: absolute;
-    left: 70px;
-    top: 403px;
-    box-shadow:  0px 4px 4px 0px rgba(123, 121, 245, 0.33);
-    transform-origin: 0 0;
-    transform: rotate(0deg) scale(1, 1);
-    }
+    .rectangle-14 {
+      width: 142px;
+      height: 29px;
+      position: absolute;
+      left: 70px;
+     top: 406px;
+     }
 
  .div3 {
     color: #ffffff;
@@ -160,3 +93,109 @@
     overflow: visible;
     }
 
+.title {
+   color: #ffffff;
+   text-align: left;
+   font: 400 22px 'Inter', sans-serif;
+   position: absolute;
+   left: 95px;
+   top: 114px;
+   transform-origin: 0 0;
+   transform: rotate(0deg) scale(1, 1);
+}
+
+
+/* -------------------------テキストボックスデザイン----------------------------------------------------- */
+.cp_iptxt {
+   position: relative;
+   width: 80%;
+   margin: 40px 3%;
+}
+.cp_iptxt input[type='text'] {
+   font: 15px/25px sans-serif;
+   box-sizing: border-box;
+   width: 100%;
+   letter-spacing: 1px;
+   padding-left: 4em;
+   color: #496affa9;
+}
+.cp_iptxt input[type='text']:focus {
+   outline: none;
+}
+
+.ef {
+   padding: 4px 0;
+   border: 0;
+   border-bottom: 1px solid #ffffff;
+   background-color: transparent;
+}
+.ef ~ .focus_line {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 2px;
+   transition: 0.4s;
+   background-color: #ffffff;
+}
+.ef:focus ~ .focus_line,
+.cp_iptxt.ef ~ .focus_line {
+   width: 100%;
+   transition: 0.4s;
+}
+.ef ~ label {
+   position: absolute;
+   z-index: -1;
+   top: 4px;
+   left: 0;
+   width: 100%;
+   transition: 0.3s;
+   letter-spacing: 0.5px;
+   color: #ffffff;
+   font-size: 15px;
+}
+.ef:focus ~ label, .cp_iptxt.ef ~ label {
+   font-size: 12px;
+   top: -16px;
+   transition: 0.3s;
+   color: #ffffff;
+}
+
+/* -------------------------------ボタンデザイン----------------------------------------------------------- */
+.sing-up {
+   width: 142px;
+   font-size: 12px;
+   font-weight: 600;
+   color: #fff;
+   cursor: pointer;
+   height: 36px;
+   text-align:center;
+   border: none;
+   background-size: 300% 100%;
+   border-radius: 50px;
+   -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+ }
+ 
+ .sing-up:hover {
+   background-position: 100% 0;
+   -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+ }
+ 
+ .sing-up:focus {
+   outline: none;
+ }
+ 
+ .sing-up.bn26 {
+   background-image: linear-gradient(
+     to right,
+     #2567e19a,
+     #445deb9f,
+     #0479fea4,
+     #3f59ed93
+   );
+   box-shadow: 0px 4px 4px 0px rgba(123, 121, 245, 0.33);
+ }

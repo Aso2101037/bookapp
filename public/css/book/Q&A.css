@@ -3,170 +3,80 @@
     padding: 0;
  }
  
+ .header-area{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   align-items: center;
+   background: linear-gradient(180deg, rgba(91, 127, 255, 0.78) 0%,rgba(91, 176, 255, 0.78) 100%);
+   height: 27px;
+ }
+ 
+/* ----------------------------項目-------------------------------------------------------------------------------- */
+.qa-001 {
+   max-width: 500px;
+   margin-bottom: 7px;
+   margin-top: 7px;
+   border: 1px solid #5e77f3;
+   border-radius: 5px;
+}
 
-.q-a, .q-a * {
-    box-sizing: border-box;
-    }
-.q-a {
-    background: #ffffff;
-    width: 360px;
-    height: 640px;
-    position: relative;
-    overflow: hidden;
-    }
+.qa-001 summary {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   padding: 1em 2em 1em 3em;
+   color: #adb3ff;
+   font-weight: 600;
+   cursor: pointer;
+}
 
- .div {
-    background: linear-gradient(180deg, rgba(71, 145, 255, 0.48) 28.02082598209381%,rgba(91, 186, 255, 0.60) 84.27082896232605%);
-    width: 360px;
-    height: 54px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    overflow: hidden;
-    }
+.qa-001 summary::before,
+.qa-001 p::before {
+   position: absolute;
+   left: 1em;
+   font-weight: 600;
+   font-size: 1.3em;
+}
 
- .vector {
-    height: auto;
-    position: absolute;
-    right: 88.11%;
-    left: 6.11%;
-    width: 5.78%;
-    bottom: 24.06%;
-    top: 24.07%;
-    height: 51.87%;
-    overflow: visible;
-    }
+.qa-001 summary::before {
+   color: #75bbff;
+   content: "Q";
+}
 
- .q-a2 {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: 44.44%;
-    left: 44.72%;
-    width: 10.83%;
-    bottom: 31.48%;
-    top: 33.33%;
-    height: 35.19%;
-    }
+.qa-001 summary::after {
+   transform: translateY(-25%) rotate(45deg);
+   width: 7px;
+   height: 7px;
+   margin-left: 10px;
+   border-bottom: 3px solid #adb3ffb3;
+   border-right: 3px solid #adb3ffb3;
+   content: '';
+   transition: transform .5s;
+}
 
- .rectangle-31 {
-    background: #ffffff;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: #648fff;
-    border-width: 1px;
-    width: 328px;
-    height: 51px;
-    position: absolute;
-    left: 16px;
-    top: 66px;
-    }
+.qa-001[open] summary::after {
+   transform: rotate(225deg);
+}
 
- .q {
-    color: #3e8bff;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    position: absolute;
-    left: 32px;
-    top: 77px;
-    }
+.qa-001 p {
+   position: relative;
+   transform: translateY(-10px);
+   opacity: 0;
+   margin: 0;
+   padding: .3em 3em 1.5em;
+   color: #333;
+   transition: transform .5s, opacity .5s;
+}
 
- .div2 {
-    color: #5a6bff;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    position: absolute;
-    left: 77px;
-    top: 80px;
-    }
+.qa-001[open] p {
+   transform: none;
+   opacity: 1;
+}
 
- .vector2 {
-    height: auto;
-    position: absolute;
-    right: 13.33%;
-    left: 82.5%;
-    width: 4.17%;
-    bottom: 81.41%;
-    top: 15.47%;
-    height: 3.12%;
-    transform: translate(0px, -15px);
-    overflow: visible;
-    }
-
- .rectangle-32 {
-    background: #ffffff;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: #648fff;
-    border-width: 1px;
-    width: 328px;
-    height: 117px;
-    position: absolute;
-    left: 16px;
-    top: 129px;
-    }
-
- .div3 {
-    color: #545454;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    position: absolute;
-    left: 77px;
-    top: 184px;
-    }
-
- .a {
-    color: #ff4d4d;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    position: absolute;
-    left: 33px;
-    top: 181px;
-    }
-
- .q2 {
-    color: #3e8bff;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    position: absolute;
-    left: 32px;
-    top: 140px;
-    }
-
- .div4 {
-    color: #5a6bff;
-    text-align: left;
-    font-family: 'Inter-Regular', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    position: absolute;
-    left: 77px;
-    top: 143px;
-    }
-
- .vector3 {
-    height: auto;
-    position: absolute;
-    right: 7.78%;
-    left: 88.06%;
-    width: 4.17%;
-    bottom: 73.91%;
-    top: 22.97%;
-    height: 3.12%;
-    transform: translate(-20px, 0px);
-    overflow: visible;
-    }
-
+.qa-001 p::before {
+   color: #ff8d8d;
+   line-height: 1.2;
+   content: "A";
+}

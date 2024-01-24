@@ -11,10 +11,10 @@
     <div class="frame-4" >
         <div class="welcome" >Welcome! </div>
                 <div class="rectangle-14" >
-                    <button class="bn632-hover bn26" type="submit">新規登録</button>
+                    <button class="rogin bn26">新規登録</button>
                 </div>
                 <div class="rectangle-142" >
-                    <button class="bn632-hover bn26" type="submit">ログイン</button>
+                    <button class="rogin bn26">ログイン</button>
                 </div> 
         </div>
     </div>
